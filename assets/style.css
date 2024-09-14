@@ -1,0 +1,75 @@
+@font-face {
+    font-family: iranyekan;
+    font-style: normal;
+    font-weight: bold;
+    src: url('./fonts/iranyekan/eot/iranyekanwebboldfanum.eot');
+    src: url('./fonts/iranyekan/eot/iranyekanwebboldfanum.eot?#iefix') format('embedded-opentype'),
+        /* IE6-8 */
+        url('./fonts/iranyekan/woff/iranyekanwebboldfanum.woff') format('woff'),
+        /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+        url('./fonts/iranyekan/ttf/iranyekanwebboldfanum.ttf') format('truetype');
+}
+
+body {
+    font-family: iranyekan;
+    font-size: 15px;
+}
+
+.menu {
+    background-color: #f8f8f8;
+    font-size: 15px;
+    color: #e8e8e8;
+    font-weight: bold;
+    text-align: right;
+    margin-top: -50%;
+    display: inline;
+    font-family: iranyekan;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #000;
+}
+
+.logo {
+    display: flex;
+    justify-content: right;
+    width: 200px;
+    height: 70px;
+}
+
+.menu ul {
+    margin: 0px;
+}
+
+.menu ul li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.menu ul li:hover {
+    background-color: #dfdfdf;
+    color: #000000;
+}
+
+.sub_menu {
+    background-color: #ffffff;
+    color: #000000;
+    display: none;
+    position: absolute;
+    margin-left: -100px !important;
+    text-align: center;
+}
+
+.sub_menu li {
+    width: 100px;
+    margin: 0px !important;
+}
+
+.dropdown_menu:hover ul {
+    display: block;
+}
+
+.dropdown_menu a {
+    text-decoration: none;
+}
