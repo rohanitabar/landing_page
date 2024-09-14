@@ -73,3 +73,6 @@ body {
 .dropdown_menu a {
     text-decoration: none;
 }
+.card{
+    display: inline-block;
+}
