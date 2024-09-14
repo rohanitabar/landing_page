@@ -20,8 +20,7 @@ body {
     font-size: 15px;
     color: #e8e8e8;
     font-weight: bold;
-    text-align: right;
-    margin-top: -50%;
+    text-align: center;
     display: inline;
     font-family: iranyekan;
 }
@@ -36,6 +35,8 @@ body {
     justify-content: right;
     width: 200px;
     height: 70px;
+    margin-bottom: -2.5%;
+    margin-right: 2.5%;
 }
 
 .menu ul {
