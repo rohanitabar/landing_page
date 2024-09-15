@@ -58,7 +58,8 @@ body {
     color: #000000;
     display: none;
     position: absolute;
-    margin-left: -100px !important;
+    margin-left: 30% !important;
+    margin-right: -10% !important;
     text-align: center;
 }
 
