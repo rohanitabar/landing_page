@@ -84,10 +84,13 @@ body {
     width: 100%;
     height: 500px;
     background-color: #e100ff;
-    border-radius: 10px;
+    border-radius: 20px;
 }
 .img-1{
     margin-top:0.5%;
+} 
+.img-1 a{
+    text-decoration: none;
 }
 .description{
 
